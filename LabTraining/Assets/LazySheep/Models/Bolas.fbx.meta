@@ -3,7 +3,27 @@ guid: cc7f2fee431ef6641a43722b3eca8652
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BasePrincipal
+    second: {fileID: 2100000, guid: ad6910b26478fac4ab08884cee274aa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BasePrincipalLinea
+    second: {fileID: 2100000, guid: aa981942ed5d5494bbc396811ccb5931, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BolasMetal
+    second: {fileID: 2100000, guid: b568d237cbcb090459fb03aea8536a2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BolasTransparent
+    second: {fileID: 2100000, guid: 77a4b8d54cf943d449f1fd7e18b453af, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,17 @@ guid: 835be9f3d320a3c4987e978b75c94ded
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ToquesBase
+    second: {fileID: 2100000, guid: ea0e52af220020c4e982ffd6bc9566c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ToquesTubo
+    second: {fileID: 2100000, guid: 07d2913d54116a34b9a4fdc1e0be51a8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

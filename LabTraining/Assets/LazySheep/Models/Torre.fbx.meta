@@ -3,7 +3,22 @@ guid: 705c67473384c8b4ab2173373b9fe85d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BasePrincipal
+    second: {fileID: 2100000, guid: 209919fe38ea1cc47b4604e9d6313f0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BasePrincipalLinea
+    second: {fileID: 2100000, guid: 34b939d748b4f7d46b3b50924be1c5a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TuboTorre
+    second: {fileID: 2100000, guid: 9cdf4aff14c900743bd0d7950f494dfc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
