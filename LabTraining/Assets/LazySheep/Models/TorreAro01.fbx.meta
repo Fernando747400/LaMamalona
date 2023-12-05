@@ -3,7 +3,17 @@ guid: 32c576d65d804b04eb4dd82a795c2fcb
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TorreDisco01
+    second: {fileID: 2100000, guid: b772dfa6b92490a43b72365c24aff062, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TorreLinea
+    second: {fileID: 2100000, guid: a76bc08587294a04a9c07dbc814dc1b1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
