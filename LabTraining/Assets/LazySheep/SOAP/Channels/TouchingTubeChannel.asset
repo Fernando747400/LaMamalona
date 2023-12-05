@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: TouchingTubeChannel
   m_EditorClassIdentifier: 
   _debugLogEnabled: 0
-  _debugValue: 0
+  _debugValue: 1
