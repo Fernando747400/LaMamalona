@@ -3,7 +3,27 @@ guid: ff46a741a20ffad4690d5b27922b7004
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BasePrincipal
+    second: {fileID: 2100000, guid: 5a3eae1d48c108444aed214154025d0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BasePrincipalLinea
+    second: {fileID: 2100000, guid: 0ace3356e3710a9479fb960d7719a7c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ToquesBase
+    second: {fileID: 2100000, guid: 2b4788e559e6afe40ab65a9d577d84cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ToquesTubo
+    second: {fileID: 2100000, guid: 276d2b9d59da35a42b4536786af07e24, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

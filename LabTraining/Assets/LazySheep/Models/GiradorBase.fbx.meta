@@ -3,7 +3,12 @@ guid: e3294b1de1cb46643aa682e0bff7daaf
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GiradorBase
+    second: {fileID: 2100000, guid: d60a2554b9c05514f8f19765e4bc7a4d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
