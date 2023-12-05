@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2fb1c8bab02427087aa07a952ef4018, type: 3}
   m_Name: TouchingTubeChannel
   m_EditorClassIdentifier: 
-  _debugLogEnabled: 0
+  _debugLogEnabled: 1
   _debugValue: 0

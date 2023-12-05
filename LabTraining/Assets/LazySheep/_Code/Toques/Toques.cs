@@ -27,4 +27,20 @@ public class Toques : MonoBehaviour
             _touchedTubeEventChannel.Raise(false);
         }
     }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.CompareTag(_tubeTag))
+        {
+            _touchedTubeEventChannel.Raise(true);
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.CompareTag(_tubeTag))
+        {
+            _touchedTubeEventChannel.Raise(false);
+        }
+    }
 }
