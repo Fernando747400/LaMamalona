@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5359685035709467445}
   - component: {fileID: 3104692944687405227}
   - component: {fileID: 1207225988048277429}
+  - component: {fileID: 336817018175402718}
   m_Layer: 0
   m_Name: Foco
   m_TagString: Untagged
@@ -108,6 +109,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2709202630395287499, guid: 360b0b2104275484a99f0476c2968393, type: 3}
+--- !u!114 &336817018175402718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588437334315528524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd25ef0ab70319c4c879cd80d52f6850, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _changeBulbState: {fileID: 0}
+  _onMaterial: {fileID: 2100000, guid: 56219f54a3bd77d4ebff40792a936245, type: 2}
+  _offMaterial: {fileID: 2100000, guid: 5526fa760ac8d104a87c7f28c11b832d, type: 2}
+  _materialIndex: 0
+  _renderer: {fileID: 3104692944687405227}
+  _pointLight: {fileID: 7161132554520466723}
+  _isOnAtStart: 1
 --- !u!1 &7161132554520466723
 GameObject:
   m_ObjectHideFlags: 0
