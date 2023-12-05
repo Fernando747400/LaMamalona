@@ -38,6 +38,6 @@ public class Rotation : MonoBehaviour {
 
     private void CanRotate(bool canRotate)
     {
-        _canRotate = canRotate;
+        _canRotate = !_canRotate;
     }
 }
